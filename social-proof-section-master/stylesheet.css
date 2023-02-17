@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap);
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80px auto;
+    padding: 100px;
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right; */
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 100% top, right bottom;
+    background-color: white;
+}
+
+.container{
+    
+        min-width: 320px;
+        width: 85%;
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto auto 1fr;
+        margin: 8rem 0;
+      
+}
+
+/* header{
+    align-self:flex-start
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 3rem;
+  
+} */
+
+
+header h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    max-width: 40%;
+    /* padding-left: 70px; */
+    margin-bottom: 30px;
+
+}
+
+header p {
+    color: hsl(300, 43%, 22%);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    /* padding-left: 70px; */
+    max-width: 50%;
+}
+
+.stars {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin: 8px 0px;
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.starscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+
+}
+
+.fivestars {
+    min-width: 110px;
+}
+
+.cardscontainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+} 
+
+ /* .cards{
+    color: aliceblue;
+    margin: 30px;
+    background-color:hsl(300, 43%, 22%) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}  
+
+.card1{
+    margin: 15px;
+    height: 50px;
+    width: 70px;
+    padding: 50px;
+} */

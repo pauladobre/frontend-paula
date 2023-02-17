@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+
+*{
+    font-family: 'Lobster', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+list-style-type: none;
+padding: 20px;
+background-color: black;
+opacity: 0.5;
+
+}
+
+.menu li{
+ 
+    display: inline-block;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 15px;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+    text-decoration-color: yellowgreen;
+    background-color: aqua;
+}
+
+.menu .contact{
+    position: absolute;
+    right: 50px;
+}
