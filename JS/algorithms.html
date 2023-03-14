@@ -71,18 +71,18 @@
 
         //Problem7: Find min/max din array
 
-        //     var minNumber = numberArray[0];
-        //     var maxNumber = numberArray[0];
+            var minNumber = numberArray[0];
+            var maxNumber = numberArray[0];
 
-        //     for (var i = 1; i < numberArray.length; i++) {
-        //         if (minNumber > numberArray[i])  //5>15 NU 15>1 DA
-        //             minNumber = numberArray[i];  //minNumber=1
+            for (var i = 1; i < numberArray.length; i++) {
+                if (minNumber > numberArray[i])  //5>15 NU 15>1 DA
+                    minNumber = numberArray[i];  //minNumber=1
 
-        //         if (maxNumber < numberArray[i]) //5<15 DA
-        //             maxNumber = numberArray[i]; //maxNumber=15
-        //     }
-        //     console.log(minNumber);
-        //     console.log(maxNumber);
+                if (maxNumber < numberArray[i]) //5<15 DA
+                    maxNumber = numberArray[i]; //maxNumber=15
+            }
+            console.log(minNumber);
+            console.log(maxNumber);
 
         //Problem8: FizzBuzz game: if divide by 3 => fizz, if divide by 5 => buzz, if divide cu 15 => fizzbuzz
 
